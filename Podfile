@@ -7,6 +7,10 @@ target 'CloudFunctionExample' do
 
 pod 'Firebase/Functions'
 
+pod 'AlgoliaSearchClient', '~> 8.0'
+
+pod 'Firebase/Firestore'
+
   # Pods for CloudFunctionExample
 
 end
