@@ -14,6 +14,7 @@
 		04B53259257C84EE00391748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B53258257C84EE00391748 /* Assets.xcassets */; };
 		04B5325C257C84EE00391748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B5325A257C84EE00391748 /* LaunchScreen.storyboard */; };
 		04B69F3B257C97C40058615E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04B69F3A257C97C40058615E /* GoogleService-Info.plist */; };
+		04D71B4A262FC36B0022EF48 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D71B49262FC36B0022EF48 /* User.swift */; };
 		E87C47D693160A4CD76DC6EB /* Pods_CloudFunctionExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F95A4C3A697B2C64AF87856 /* Pods_CloudFunctionExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		04B5325B257C84EE00391748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04B5325D257C84EE00391748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04B69F3A257C97C40058615E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		04D71B49262FC36B0022EF48 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		6F95A4C3A697B2C64AF87856 /* Pods_CloudFunctionExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudFunctionExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF149A227AF1FD84D348D520 /* Pods-CloudFunctionExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudFunctionExample.release.xcconfig"; path = "Target Support Files/Pods-CloudFunctionExample/Pods-CloudFunctionExample.release.xcconfig"; sourceTree = "<group>"; };
 		D162857630DBFEF7AAAEDA5C /* Pods-CloudFunctionExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudFunctionExample.debug.xcconfig"; path = "Target Support Files/Pods-CloudFunctionExample/Pods-CloudFunctionExample.debug.xcconfig"; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				04B5325A257C84EE00391748 /* LaunchScreen.storyboard */,
 				04B5325D257C84EE00391748 /* Info.plist */,
 				04B69F3A257C97C40058615E /* GoogleService-Info.plist */,
+				04D71B49262FC36B0022EF48 /* User.swift */,
 			);
 			path = CloudFunctionExample;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D71B4A262FC36B0022EF48 /* User.swift in Sources */,
 				04B53254257C84EE00391748 /* ViewController.swift in Sources */,
 				04B53250257C84EE00391748 /* AppDelegate.swift in Sources */,
 				04B53252257C84EE00391748 /* SceneDelegate.swift in Sources */,
